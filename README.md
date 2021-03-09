@@ -169,3 +169,44 @@ v = complex(1,4)
 pyvar.isComplex(v)
 
 ```
+
+### With conditionals (Example)
+
+You can put the functions with conditionals like this:
+
+```
+
+v = 5
+
+if pyvar.isInt(v):
+  print("Yes, this value is an Integer")
+
+```
+Return (if the conditional is True):
+
+```
+
+Yes, this value is an Integer
+
+```
+
+_if the values is different than Int_:
+
+```
+
+v = "hello!"
+
+if pyvar.isInt(v):
+  print("Yes, this value is an Integer")
+
+```
+
+Return:
+
+```
+
+* * * The values hello! is not an Int * * *
+
+```
+
+
